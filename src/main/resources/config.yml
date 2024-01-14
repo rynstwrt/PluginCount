@@ -1,0 +1,7 @@
+# The prefix of the message.
+prefix: "&7[&bPluginCount&7]&r "
+
+
+# The message shown when /plugincount is run.
+# "%d" gets replaced with the number of plugins.
+message: "&7Your server has &a%d &7plugins!"

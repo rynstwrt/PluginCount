@@ -1,0 +1,18 @@
+name: PluginCount
+description: "A plugin to see how many plugins your server has!"
+version: '${version}'
+main: art.ryanstew.plugincount.PluginCount
+api-version: '1.20'
+commands:
+  plugincount:
+    description: "Command to see how many plugins the server has."
+    usage: "/plugincount"
+    aliases: [numplugins, pluginnum]
+    permission: plugincount.use
+permissions:
+  plugincount.use:
+    description: "Permission to run /plugincount."
+    default: op
+  plugincount.reload:
+    description: "Permission to reload PluginCount's config."
+    default: op
