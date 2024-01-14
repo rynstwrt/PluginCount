@@ -2,7 +2,6 @@
 .idea/
 .gradle/
 build/
-.DS_Store
 
 *.iml
 *.ipr
