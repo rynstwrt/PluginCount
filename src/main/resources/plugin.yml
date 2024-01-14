@@ -7,7 +7,7 @@ commands:
   plugincount:
     description: "Command to see how many plugins the server has."
     usage: "/plugincount"
-    aliases: [numplugins, pluginnum]
+    aliases: [numplugins, pluginnum, plugincount]
     permission: plugincount.use
 permissions:
   plugincount.use:
